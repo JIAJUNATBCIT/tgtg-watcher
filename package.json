@@ -38,7 +38,7 @@
   "scripts": {
     "lint": "prettier --write . && eslint --cache --fix .",
     "prepare": "husky install",
-    "start": "toogoodtogo-watcher watch"
+    "start": "node index.js watch"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
